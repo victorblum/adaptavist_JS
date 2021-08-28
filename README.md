@@ -2,5 +2,5 @@
   TypeScript Word Count Application
 
 # Build & run
-1. Clone repo.
-2. Run in terminal: node word-counter.js file.txt
+● Clone this repository and open the project
+● In the terminal, run the command <b>node word-counter.js file.txt</b>
