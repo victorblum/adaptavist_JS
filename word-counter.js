@@ -2,8 +2,6 @@ const fs = require('fs');
 const fileText = process.argv[2];
 fs.readFile(fileText, 'utf8', function(err, data) {
     if (err) throw err;
-    console.log(`OK: ${fileText}`);
-    
     const words = data.toLowerCase().replace(/[,.!;:")()’\n]/g, ' ').split(' ');
     const map = {};
         for(let i = 0; i < words.length; i++) {
