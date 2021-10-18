@@ -1,5 +1,5 @@
 # About
-  TypeScript Word Count Application
+Word Count Application
 
 # Build & run
 ● Clone this repository and open the project<br>
